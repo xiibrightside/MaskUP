@@ -5,7 +5,7 @@ const GitHub = () => {
   return (
     <div>
       <Nav />
-      <h1 className="title2 text-center">Repository URL</h1>
+      <h1 className="title2 text-center">Source Code</h1>
       <p className="aboutdesc1 text-center">
         Click the Git icon to access the entire Source Code{" "}
       </p>
