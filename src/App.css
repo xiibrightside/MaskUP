@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+body {
+  background-color: var(--very-dark-blue-mainbg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  padding-top: 50px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 55px;
+  letter-spacing: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navb {
   color: white;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between 25px;
+  gap: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.navs {
+  color: white;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navs:hover {
+  color: var(--soft-blue);
+  transition: all 300ms ease-in-out;
+}
+
+.bord {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.camera {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: var(--very-dark-blue-cardbg);
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.54) 0px 5px 10px;
+}
+
+.title2 {
+  padding-top: 50px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+.aboutdesc1 {
+  width: 70%;
+  margin: 30px 15% 0 15%;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  color: var(--soft-blue);
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.aboutdesc2 {
+  width: 70%;
+  margin: 30px 15% 0 15%;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  color: var(--soft-blue);
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.hmbtn {
+  color: var(--white);
+}
+
+.hmbtn:hover {
+  color: var(--soft-blue);
+  transition: all 300ms ease-in-out;
+}
+
+.ournames {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0 20px 0;
+}
+
+.names {
+  color: white;
+  cursor: pointer;
+}
+
+.names:hover {
+  color: var(--soft-blue);
+  transition: all 300ms ease-in-out;
+}
+
+.git {
+  color: aquamarine;
+}
+
+.git:hover {
+  color: var(--cyan);
+  transition: all 400ms ease-in-out;
 }
