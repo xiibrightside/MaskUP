@@ -1,9 +1,9 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
-import GitHub from "./components/Github";
-import Feedback from "./components/Feedback";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import GitHub from "./pages/Github";
+import Feedback from "./pages/Feedback";
 import "./App.css";
 
 function App() {

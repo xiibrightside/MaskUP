@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./Nav";
+import Nav from "../components/Nav";
 
 const GitHub = () => {
   return (
@@ -9,11 +9,12 @@ const GitHub = () => {
       <p className="aboutdesc1 text-center">
         Click the Git icon to access the entire Source Code{" "}
       </p>
-      <a href="#0">
-        <div className="git pt-8 text-center">
+
+      <div className="pt-8 text-center">
+        <a className="git" href="https://github.com/xiibrightside/MaskUP">
           <i class="fa-6x fa-brands fa-github"></i>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
   );
 };

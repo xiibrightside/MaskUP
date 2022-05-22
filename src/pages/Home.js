@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useRef, useEffect, useState } from "react";
 import "../App.css";
-import Nav from "./Nav";
+import Nav from "../components/Nav";
 
 const Home = () => {
   const videoRef = useRef(null);
