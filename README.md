@@ -12,17 +12,20 @@ This Mask Detection cum Verification system works using a Custom Fine-Tuned Tens
 ### Screenshots :-
 
 - Homepage with the Camera Component
+
   ![](./public/screenshot-1.PNG)
 
 - About us
+
   ![](./public/screenshot-2.PNG)
 
 - Feedback Page
+
   ![](./public/screenshot-3.PNG)
 
 ### Links
 
-- Live Site URL: [Github Pages](https://xiibrightside.github.io/MaskUP/)
+- Live Site URL : [Github Pages](https://xiibrightside.github.io/MaskUP/)
 
 ### Built with
 
