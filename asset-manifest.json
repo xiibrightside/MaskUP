@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MaskUP/static/css/main.459949f4.css",
-    "main.js": "/MaskUP/static/js/main.9fe4aef5.js",
+    "main.js": "/MaskUP/static/js/main.2a1ebbf5.js",
     "index.html": "/MaskUP/index.html",
     "main.459949f4.css.map": "/MaskUP/static/css/main.459949f4.css.map",
-    "main.9fe4aef5.js.map": "/MaskUP/static/js/main.9fe4aef5.js.map"
+    "main.2a1ebbf5.js.map": "/MaskUP/static/js/main.2a1ebbf5.js.map"
   },
   "entrypoints": [
     "static/css/main.459949f4.css",
-    "static/js/main.9fe4aef5.js"
+    "static/js/main.2a1ebbf5.js"
   ]
 }
