@@ -5,9 +5,6 @@ import Nav from "../components/Nav";
 
 const Home = () => {
   const videoRef = useRef(null);
-
-  const photoRef = useRef(null);
-
   const getVideo = () => {
     navigator.mediaDevices
       .getUserMedia({

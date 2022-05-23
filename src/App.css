@@ -11,7 +11,7 @@ body {
   letter-spacing: 2px;
 }
 
-.navb {
+nav {
   color: white;
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
@@ -22,12 +22,13 @@ body {
   gap: 25px;
 }
 
-.navs {
+nav a {
+  position: relative;
   color: white;
   cursor: pointer;
 }
 
-.navs:hover {
+nav a:hover {
   color: var(--soft-blue);
   transition: all 300ms ease-in-out;
 }

@@ -7,7 +7,7 @@ const GitHub = () => {
       <Nav />
       <h1 className="title2 text-center">Source Code</h1>
       <p className="aboutdesc1 text-center">
-        Click the Git icon to access the entire Source Code{" "}
+        Click on the Git icon below to access the entire Source Code{" "}
       </p>
 
       <div className="pt-8 text-center">
