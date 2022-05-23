@@ -11,8 +11,8 @@ const GitHub = () => {
       </p>
 
       <div className="pt-8 text-center">
-        <a className="git" href="https://github.com/xiibrightside/MaskUP">
-          <i class="fa-6x fa-brands fa-github"></i>
+        <a href="https://github.com/xiibrightside/MaskUP">
+          <i class="git fa-6x fa-brands fa-github"></i>
         </a>
       </div>
     </div>

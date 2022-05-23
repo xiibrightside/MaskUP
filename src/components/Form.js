@@ -53,7 +53,7 @@ export default function Form() {
             id="message"
             cols="30"
             rows="8"
-            placeholder="Provide us your Honest Feedback, so we can improve on it in future"
+            placeholder="Provide us your Honest Feedback, so we can improve on it"
             name="message"
           ></textarea>
 

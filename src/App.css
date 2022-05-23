@@ -100,8 +100,8 @@ nav a:hover {
 }
 
 .git:hover {
-  color: var(--cyan);
-  transition: all 400ms ease-in-out;
+  color: var(--soft-blue);
+  transition: all 300ms ease-in-out;
 }
 
 @media only screen and (max-width: 540px) {
